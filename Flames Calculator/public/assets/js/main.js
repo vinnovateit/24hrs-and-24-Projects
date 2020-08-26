@@ -10,7 +10,7 @@ function flames() {
 		while (flames.length != 1) {
 			flames = flames.splice(lengthInput % 6, 1);
 		}
-		$("span").html("Result:   " + flames);
+		$("span").html(flames);
 	} else {
 		alert("Fill out both the fields");
 	}
