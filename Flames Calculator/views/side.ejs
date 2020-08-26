@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+
+		<!-- EXTERNAL CSS  -->
+		<link rel="stylesheet" href="/assets/css/side.css" />
+
+		<!-- BOOT STRAP -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+			integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+			integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+			integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body
+		style="
+			background: url('<%=background_img%>') no-repeat fixed center;
+			background-size: contain;
+		"
+	>
+		<div>
+			<form>
+				<div class="form-group">
+					<label for="name_1">Enter your name</label>
+					<input
+						type="text"
+						class="form-control"
+						id="name_1"
+						aria-describedby="name_1"
+					/>
+				</div>
+				<div class="form-group">
+					<label for="name_2">Enter other's name</label>
+					<input
+						type="text"
+						class="form-control"
+						id="name_2"
+						aria-describedby="name_2"
+					/>
+				</div>
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		</div>
+		<div>ANSWER GOES HERE</div>
+	</body>
+</html>
