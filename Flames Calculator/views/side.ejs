@@ -30,6 +30,9 @@
 			integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
 			crossorigin="anonymous"
 		></script>
+
+		<!-- EXTERNAL SCRIPT -->
+		<script src="/assets/js/main.js"></script>
 	</head>
 	<body
 		style="
@@ -37,13 +40,13 @@
 			background-size: contain;
 		"
 	>
-		<div>
+		<div style="width: 50%; margin: 10vh auto; border: 2px solid red">
 			<form>
 				<div class="form-group">
 					<label for="name_1">Enter your name</label>
 					<input
 						type="text"
-						class="form-control"
+						class="form-control name_1"
 						id="name_1"
 						aria-describedby="name_1"
 					/>
@@ -52,14 +55,21 @@
 					<label for="name_2">Enter other's name</label>
 					<input
 						type="text"
-						class="form-control"
+						class="form-control name_2"
 						id="name_2"
 						aria-describedby="name_2"
 					/>
 				</div>
-				<button type="submit" class="btn btn-primary">Submit</button>
+				<button
+					type="button"
+					onclick="flames()"
+					class="btn btn-primary"
+				>
+					Submit
+				</button>
 			</form>
 		</div>
-		<div>ANSWER GOES HERE</div>
+		<span>ANSWER GOES HERE</span>
 	</body>
+	<script></script>
 </html>
