@@ -1,0 +1,23 @@
+{
+  "name": "regular-mailer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "and": "0.0.3",
+    "body-parser": "^1.19.0",
+    "cron": "^1.8.2",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "handlebars": "^4.7.6",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.10.2",
+    "nodemailer": "^6.4.11"
+  }
+}
